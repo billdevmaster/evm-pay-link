@@ -22,7 +22,7 @@ const Home: NextPage = () => {
         <h1 className="text-3xl">
           Welcome to{" "}
           <strong>
-            Easy<span className="text-green-500">2</span>Pay
+            EVM<span className="text-green-500">Pay</span>Link
           </strong>
           !
         </h1>
