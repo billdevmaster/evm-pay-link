@@ -103,8 +103,8 @@ export const Header = () => {
             <Image alt="SE2 logo" className="cursor-pointer" fill src="/favicon.png" />
           </div>
           <div className="flex flex-col">
-            <span className="font-bold leading-tight">Easy2Pay</span>
-            <span className="text-xs">Share QR/URL to request $</span>
+            <span className="font-bold leading-tight">EVM Paylink</span>
+            <span className="text-xs">Share URL/QR to request $</span>
           </div>
         </Link>
         <ul className="hidden lg:flex lg:flex-nowrap menu menu-horizontal px-1 gap-2">

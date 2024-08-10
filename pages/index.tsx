@@ -20,19 +20,19 @@ const Home: NextPage = () => {
 
       <div className="flex items-center flex-col flex-grow pt-10 ">
         <h1 className="text-3xl">
-          Welcome to{" "}
+          Say hello to{" "}
           <strong>
-            EVM<span className="text-green-500">Pay</span>Link
+            EVM <span className="text-green-500">Pay</span>Link
           </strong>
           !
         </h1>
         <p className="text-center">
-          Create a payment request <br />
+          Create a payment link request <br />
           and <strong>share it as a QR code or an URL</strong>!
           <br />
           <i className="text-green-500">currently accepting native ETH and USDC as payment methods</i>
         </p>
-        <div className="card w-96 bg-green-700 shadow-xl text-white">
+        <div className="card w-96 bg-orange-700 shadow-xl text-white">
           <div className="p-4">
             <p className="mb-2">
               Enter the <strong>amount of USD</strong> you want to receive:
@@ -46,7 +46,7 @@ const Home: NextPage = () => {
 
           <div className="card-actions justify-end p-4">
             <button
-              className="btn btn-primary bg-orange-500 hover:bg-orange-600 border-none mt-4"
+              className="btn btn-primary bg-teal-700 hover:bg-orange-600 border-none mt-4"
               onClick={event => {
                 event.preventDefault();
                 requestPayment();
