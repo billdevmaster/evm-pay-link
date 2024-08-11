@@ -1271,7 +1271,7 @@ const deployedContracts = {
       },
     },
     Easy2Pay: {
-      address: "0x9518e478e3a9a12e20bcddb782269f919a94877c",
+      address: "0xa78DA8C6da46281B65A15e7A279CC41944F381B1",
       abi: [
         {
           type: "constructor",
