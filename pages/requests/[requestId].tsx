@@ -54,11 +54,11 @@ const RequestDetailsPage: React.FC = () => {
 
   const { data: easy2PayInfo } = useDeployedContractInfo("Easy2Pay");
 
-  const { writeAsync: approve } = useScaffoldContractWrite({
-    contractName: "MockUSDC",
-    functionName: "approve",
-    args: [easy2PayInfo?.address, BigInt(requestData?.amount ?? 0)],
-  });
+  //const { writeAsync: approve } = useScaffoldContractWrite({
+  //  contractName: "MockUSDC",
+  //  functionName: "approve",
+  //  args: [easy2PayInfo?.address, BigInt(requestData?.amount ?? 0)],
+  //});
 
   const { writeAsync: payWithUsdc } = useScaffoldContractWrite({
     contractName: "Easy2Pay",
